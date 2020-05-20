@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<style>
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+	top:20px;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+</style>
+<body>
+</br></br>
+<center><h1> ENTER YOUR DETAILS</h1></center>
+<form action="redirect.jsp" method="post">
+</br></br>
+	
+<div class="wrap-input100 validate-input" data-validate="name is same as username">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="name" placeholder="Type your user name ...">
+						<span class="focus-input100"></span>
+					</div>
+	<div class="wrap-input100 validate-input" data-validate="phno is required">
+						<span class="label-input100">Phoneno</span>
+						<input class="input100" type="text" name="phno" placeholder="Type your phone no ...">
+						<span class="focus-input100"></span>
+					</div>
+	<div class="wrap-input100 validate-input" data-validate="address is required">
+						<span class="label-input100">Address</span>
+						<input class="input100" type="text" name="address" placeholder="Type your address...">
+						<span class="focus-input100"></span>
+					</div>
+				<div class="form-group">
+    						Select image to upload:
+    						<input type="file" name="image" id="fileToUpload" class="form-control rounded-0" placeholder="image" required>
+    					</div>
+	
+
+	
+								<div class="container-login100-form-btn" >
+						<button class="login100-form-btn">
+						Submit	
+						</button>
+					</div>
+</form>
+</body>
+</html>

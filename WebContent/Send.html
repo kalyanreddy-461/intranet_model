@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 align="center">Send Email Form</h1>
+<form class="cf" action="Servlet" method="post">
+    <div align="center">
+        <table>
+            <tr>
+                <td>From : </td><td><input type="email" name="sender" size="30px" class="input-email"
+                    placeholder="Email address"></td>
+            </tr>
+            <tr>
+                <td>Password : </td><td><input type="password" name="pass" size="30px" class="input-email"
+                    placeholder="Sender Password"></td>
+            </tr>
+            <tr>
+                <td>To : </td><td><input type="email" name="receiver" size="30px" class="input-email"
+                    placeholder="Email address"></td>
+            </tr>
+            <tr>
+                <td>Subject : </td><td><input type="text" name="subject" size="30px" class="input-email"
+                    placeholder="Subject"></td>
+            </tr>
+            <tr>
+                <td>Message : </td><td><textarea name="message" id="input-message"
+                        class="text" placeholder="Message"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="SEND" class="button">
+                </td>
+                <td><input type="reset" value="CLEAR" class="button">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</form>
+
+</body>
+</html>

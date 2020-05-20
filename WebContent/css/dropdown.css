@@ -1,0 +1,114 @@
+<style>
+
+.navbar-default {
+    background: #202020;
+    border: none;
+    border-left: 6px solid #d54ab6;
+    padding-right: 40px;
+    margin: 0 !important;
+    position: relative;
+    top: 20px;
+  }
+.navbar-default .navbar-brand {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 4px;
+   }
+.navbar-default .navbar-nav li a {
+  color: #f2f2f2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  transition: all 0.4s ease-in;
+ }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  	color: #ffa500;
+  	background-color: transparent;
+
+}
+.navbar-default .navbar-toggle {
+  	background: #d54ab6;
+  	border-radius: 0px;
+   	border: none;
+   	margin-top: 20px;
+   	margin-bottom: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { 
+  background-color: transparent ;
+ 
+}
+
+.active {
+	background: #202020;
+}
+
+
+.dropdown {	color: #202020;
+  	background-color: transparent; 
+font-size: 20px;
+    line-height: 40px;
+    padding-top: 4px;
+}
+
+.dropdown .dropbtn {
+  background: #202020;
+  border: 0px solid #fff;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #fff;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 40px;
+  transition: all 0.4s ease-in;
+}
+
+.dropdown:hover .dropbtn {
+  background:#333;
+  border-color: transparent;
+color:#ffa500;
+}
+
+.dropdown-content {
+	color: #333;
+  	background-color: #202020; 
+	font-size: 40px;
+    line-height: 40px;
+    padding-top: 4px;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a { float: none;
+  color: #fff;
+  background-color:#202020;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background: #333;
+  color:d54ab6;
+  border-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+</style>

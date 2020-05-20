@@ -1,0 +1,132 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+.container{
+	background-color:#fff;
+}
+body {
+  	
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		border-style:solid;
+		padding-top:70px;
+
+}
+.parallax {
+  /* The image used */
+  background-image: url("C:\Users\abhis\workspace\dintranet\WebContent\images\about-img.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar-default1 {
+    background: #333;
+    border: none;
+	position:center;
+    border-left: 5px solid #d54ab6;
+    padding-right: 20px;
+	width:1100px;
+    margin: 0 !important;
+    position: relative;
+    top: 20px;
+	left:20px;
+	right:20px;
+   }
+.navbar-default1 .navbar-nav1  li a {
+position:center;
+  color: #f2f2f2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  list-style-type:none;
+  transition: all 0.4s ease-in;
+ }
+
+.navbar-default1 .navbar-nav1  li a :after {
+	bottom:50px;
+}
+
+/* Float four rows down */
+.column1 {
+color:#333;
+left:20px;
+background-color:#fff;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 630px) {
+  .column {
+    width: 100%;
+	left:20px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+#home1 {
+	background-color:#fff;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+  height: 60px;
+  background-color: white;
+  color: #1F6C8B;
+  font-family: Arial;
+	}
+.logout li a
+{	
+  color: #f2f2f2;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration:none;
+  list-style-type:none;
+  line-height: 40px;
+  transition: all 0.4s ease-in;}
+ .logout
+  {
+  list-style-type:none;
+	  text-decoration:none;
+  }
+.logout li a:hover
+{
+color:#d54ab6;
+}
+</style>

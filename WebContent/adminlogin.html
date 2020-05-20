@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card1 {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  width: 25%;
+	left:75%;
+  position:relative;
+  }
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+a:link {
+  text-decoration: none;
+  color: #33ffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #003366;
+}
+
+a:hover {
+
+  text-decoration: none;
+  color:#00ff00 ;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: right;
+  left:0%;
+  position:relative;
+  height:160px;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Float four columns side by side */
+.column1 {
+  float: top;
+  width: 25%;
+  padding: 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -1px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.logout
+{
+text-align:right;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  text-align: center;
+  background-color: #ffff1a;
+}
+h1 {
+  font-size: 3em; /* 40px/16=2.5em */
+}
+</style>
+</head>
+<body>
+<style>
+body {
+  background-image: url('images/ceo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<div class="logout">
+			<li><a href="logout.jsp"><h2>Logout</h2></a></li>
+
+
+<center><h1>Welcome to the Admin Login</h1></center>
+</br>
+
+
+  <div class="column1">
+    <div class="card">
+      <br /><h3><a href="ceoassign.jsp">Give a new Assignment</a></h3><br />
+      
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card">
+      <br /><h3><a href="ceoassignstatus1.jsp">Assignment Status of Employees</a></h3><br />
+      
+    </div>
+  </div>
+
+
+
+  <div class="column1">
+    <div class="card">
+      <br /><h3><a href="grid.jsp">View Employee Details</a></h3><br />
+      
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <br /><h3><a href="">Granting Permission</a></h3><br />
+      
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <br /><h3><a href="ceoannounce1.jsp">Announcements To Employees</a></h3><br />
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <br /><h3><a href="faq.jsp">Faq's</a></h3><br />
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <br /><h3><a href="active.jsp">Active Users Online</a></h3><br />
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
